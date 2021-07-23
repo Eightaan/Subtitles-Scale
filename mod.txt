@@ -1,0 +1,15 @@
+{
+	"blt_version" : 2,
+	"name" : "Smaller Subtitles",
+	"description" : "",
+	"author" : "Eightan",
+	"color" : "0.52 1 0",
+	"contact" : "",
+	"version" : "1",
+	"hooks" : [
+		{
+			"hook_id" : "core/lib/managers/subtitle/coresubtitlepresenter",
+			"script_path" : "mod.lua"
+		}
+	]
+}
